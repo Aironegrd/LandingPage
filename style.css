@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background-color: #1f2937;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.navbar a {
+    color: #f9faf8;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    font-size: 1.125em;
+}
+
+.navbar .nav-links ul {
+    display: flex;
+}
+
+.navbar .nav-links ul li {
+    margin: 0 20px;
+}
+
+.contenu-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenu-1 .debut ul li {
+    margin: 0 200px;
+    margin-right: auto;
+}
+
+.image-de-debut {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 500px;
+    max-height: 246px;
+    flex-shrink: 0;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin: 0 200px;
+    padding-left: 10px;
+}
+
+.text-1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+}
+
+.text-2 {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bouton-debut {
+    all: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33px;
+    width: 130px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: #3882f6;
+}
+
+.titre-contenu-2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+    padding-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px;
+
+}
+
+.card {
+    width: 160px;
+    text-align: center;
+}
+
+.card .image-card {
+    width: 100%;
+    height: 160px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 17px;
+    color: #1f2937;
+}
+
+.contenu-3 {
+    background-color: #e5e7eb;
+
+}
+
+.contenu-3 .citation {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 335px;
+    margin-right: 335px;
+    padding-top: 135px;
+}
+
+.contenu-3 .auteur {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 330px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 105px;
+}
+
+.contenu-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 100px auto;
+}
+
+.text-4 h2 {
+    font-weight: bold;
+    margin: 0;
+}
+
+.text-4 p {
+    font-weight: 300;
+    margin: 5px 0 0 0;
+}
+
+.bouton-bleu {
+    all: unset;
+    display: inline-block;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.bouton-bleu:hover {
+    background: white;
+    color: #1f2937;
+}
+
+footer {
+    background-color: #1f2937;
+}
+
+footer .text-fin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: #e5e7eb;
+}
