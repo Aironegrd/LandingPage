@@ -13,14 +13,6 @@ Suite aux instructions fournies par le cours, l’objectif de ce projet était d
 - Utiliser **Flexbox** pour organiser les éléments visuellement
 - Structurer un projet avec plusieurs sections cohérentes
 
-## 🖼️ Comparatif
-
-### 🔸 Maquette fournie (modèle à suivre) :
-[Insère ici une capture d’écran du modèle ou un lien vers celui-ci]
-
-### 🔹 Mon résultat :
-[Insère ici une capture de ta page ou un lien vers le projet]
-
 ## 🛠️ Technologies utilisées
 
 - HTML5
